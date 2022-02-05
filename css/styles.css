@@ -21,6 +21,7 @@
 
 body {
   font-family: var(--primary-font-family);
+  color: var(--primary-title-color);
 }
 
 /* =====START COMPONENTS===== */
@@ -35,7 +36,6 @@ body {
 }
 
 .sabtitle {
-  color: var(--primary-title-color);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -167,7 +167,6 @@ body {
 }
 
 .emlooyee-name {
-  color: var(--primary-title-color);
   font-weight: 500;
 }
 
@@ -209,7 +208,6 @@ body {
 
 .filter-button {
   background-color: #f5f4fa;
-  color: var(--primary-title-color);
   border: none;
 }
 
@@ -224,7 +222,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-title-color);
 }
 .portfolio-type {
   font-weight: normal;
