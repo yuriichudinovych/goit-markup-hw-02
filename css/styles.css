@@ -109,6 +109,7 @@ body {
   color: var(--secondary-title-color);
   background-color: var(--accent-color);
   border: none;
+  font-family: var(--primary-font-family);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -160,19 +161,24 @@ body {
 }
 
 .employee {
-  text-align: center;
+  /* text-align: center; */
   display: inline-block;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .emlooyee-name {
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .position {
   color: var(--text-color);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 /* ======END OUR TEAM====== */
 
@@ -199,7 +205,7 @@ body {
 
 /* PORTFOLIO */
 
-.filter-list {
+.filter-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -207,8 +213,16 @@ body {
 }
 
 .filter-button {
+  font-family: var(--primary-font-family);
   background-color: #f5f4fa;
   border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filter-button:hover,
@@ -226,7 +240,7 @@ body {
 .portfolio-type {
   font-weight: normal;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }

@@ -23,10 +23,10 @@
         >
         <ul class="nav-list list">
           <li class="nav-list-item">
-            <a class="nav-list-link link accent" href="./index.html">Студия</a>
+            <a class="nav-list-link link accent current" href="./index.html">Студия</a>
           </li>
           <li class="nav-list-item">
-            <a class="nav-list-link link accent current" href="./portfolio.html">Портфолио</a>
+            <a class="nav-list-link link accent" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="nav-list-item">
             <a class="nav-list-link link accent" href="">Контакты</a>
@@ -45,20 +45,22 @@
     <!-- main content section -->
     <main class="portfolio">
       <!-- Filter section -->
-      <section class="filter list">
+      <section class="portfolio-filter">
         <ul class="filter-list list">
-          <li class="filter-item"><button class="filter-button link" type="button">Все</button></li>
           <li class="filter-item">
-            <button class="filter-button link" type="button">Веб-сайты</button>
+            <button class="filter-button" type="button">Все</button>
           </li>
           <li class="filter-item">
-            <button class="filter-button link" type="button">Приложения</button>
+            <button class="filter-button" type="button">Веб-сайты</button>
           </li>
           <li class="filter-item">
-            <button class="filter-button link" type="button">Дизайн</button>
+            <button class="filter-button" type="button">Приложения</button>
           </li>
           <li class="filter-item">
-            <button class="filter-button link" type="button">Маркетинг</button>
+            <button class="filter-button" type="button">Дизайн</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Маркетинг</button>
           </li>
         </ul>
 
@@ -83,7 +85,7 @@
               height="294"
             />
             <h3 class="portfolio-name">Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <p class="portfolio-type">Дизайн</p>
           </li>
           <li class="portfolio-item">
             <img
@@ -166,19 +168,24 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer class="footer description">
+    <footer class="footer">
       <address class="address">
         <a class="logo logo-footer link" lang="en" href="index.html">
           <span class="logo-web">Web</span>Studio
         </a>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
+        <p class="description">г. Киев, пр-т Леси Украинки, 26</p>
       </address>
       <ul class="list">
         <li>
-          <a class="link contact-footer accent" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="link contact-footer accent description" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
         <li>
-          <a class="link contact-footer accent" lang="en" href="mailto:info@devstudio.com"
+          <a
+            class="link contact-footer accent description"
+            lang="en"
+            href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
