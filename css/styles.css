@@ -213,7 +213,8 @@ body {
   border: none;
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   background-color: var(--accent-color);
   color: var(--secondary-title-color);
 }
